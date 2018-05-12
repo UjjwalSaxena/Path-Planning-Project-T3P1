@@ -32,10 +32,11 @@ I used spline.h library and added in the source folder. The code compiled withou
 
 
 ![png](pic.png) 
-Figure 1 Screenshot of the successfull run
+
+Screenshot of the successfull run
 
 ### Reflection
-**Model description: **
+**Model description:**
 
 The main.cpp file listens to the message sent from the simulator (using web sockets). The simulator sends the data related to car, like Car’s location, velocity, yaw rate, speed and Frenet coordinates (longitudinal and lateral displacement). It also sends the data from the sensor fusion which contains data for other cars in vicinity.
 
